@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="perfil.css">
+  <title>4Knocking</title>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="perfil.css">
+<title>4Knocking</title>
+</head>
+
+<body>
+  <header>
+    <img src="./img/1logo.png" alt="Logo 4Knocking">
+    <div class="barra-pesquisa">
+      <input type="text" placeholder="Digite sua pesquisa...">
+      <button>Buscar</button>
+    </div>
+
+    <div class="menu">
+      <a href="./home.html">Home</a>
+      <a href="./vendas.html">Vendas</a>
+      <a href="./alugueis.html">Aluguéis</a>
+      <a href="#" id="link-notificacao">Notificação</a>
+    </div>
+
+
+    <div class="icone-usuario">
+      <a href="./perfil.html"><ion-icon name="person-circle-outline"></ion-icon></a>
+    </div>
+
+    <div id="aba-notificacao" style="display:none;">
+      <span class="fechar" onclick="fecharAba()">&times;</span>
+      <h3>Nova Notificação</h3>
+
+      <div class="notificacao-conteudo">
+        <span class="nome-usuario">👤 Usuário Tal</span>
+        <span class="status-interessado">Interessado</span>
+        <p class="mensagem">"mensagem longa de texto só para testar a expansão automática da caixa de notificação"</p>
+      </div>
+
+      <div class="notificacao-conteudo">
+        <span class="nome-usuario">👤 Usuário Tal</span>
+        <span class="status-interessado">Interessado</span>
+        <p class="mensagem">"mensagem tal"</p>
+      </div>
+  </header>
+
+  <main>
+    <div class="perfil-info-container">
+      <section class="informacoes">
+        <img src="./img/perfil.png" alt="foto de perfil">
+        <p class="nome">Imobiliária x</p>
+        <p class="contato"> Entre em contato:</p>
+        <p class="numero"> +55 (11) 12345-6789</p>
+
+      </section>
+      <div class="historico-container">
+        <div class="historico">
+          <p class="quantidade"> X anúncios</p>
+        </div>
+        <div class="localizacao">
+          <p class="endereço">Rua 321 - bairro cidade</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <main>
+    <section class="imovel">
+      <div class="titulo">Rua, 123- bairro cidade</div>
+      <div class="grade">
+        <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
+        <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
+        <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
+        <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
+        <div class="casa">
+          <div class="casa-nome">rua, 123 - bairro cidade</div>
+          <div class="valor">VALOR/ao mês</div>
+        </div>
+        <div class="especificacao">
+          <div class="casa-nome">rua, 123 - bairro cidade</div>
+          <div class="valor">VALOR/ao mês</div>
+        </div>
+        <div class="especificacao">
+          <div class="casa-nome">rua, 123 - bairro cidade</div>
+          <div class="valor">VALOR/ao mês</div>
+        </div>
+        <div class="especificacao">
+          <div class="casa-nome">rua, 123 - bairro cidade</div>
+          <div class="valor">VALOR/ao mês</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="imovel">
+      <div class="titulo">Rua, 321- bairro cidade</div>
+      <div class="grade">
+        <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
+        <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
+        <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
+        <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
+        <div class="especificacao">
+          <div class="casa-nome">rua, 321 - bairro cidade</div>
+          <div class="valor">VALOR/ao mês</div>
+        </div>
+        <div class="especificacao">
+          <div class="casa-nome">rua, 321 - bairro cidade</div>
+          <div class="valor">VALOR/ao mês</div>
+        </div>
+        <div class="especificacao">
+          <div class="casa-nome">rua, 321 - bairro cidade</div>
+          <div class="valor">VALOR/ao mês</div>
+        </div>
+        <div class="especificacao">
+          <div class="casa-nome">rua, 321 - bairro cidade</div>
+          <div class="valor">VALOR/ao mês</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
