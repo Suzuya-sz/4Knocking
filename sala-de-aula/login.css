@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: #f3f3f3;
+    margin: 0;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 100%;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Empurra os itens para os cantos */
+    align-items: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Garante que o contêiner ocupe a altura total da tela */
+}
+
+.imagem-esquerda img {
+    height: 100vh; /* A imagem ocupará a altura total da tela */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+}
+
+.form-login {
+    padding: 40px;
+    margin-right: 200px; /* Adiciona um espaçamento à direita para não colar na borda */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
