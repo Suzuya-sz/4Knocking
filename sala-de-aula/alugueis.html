@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vendas.css">
-    <title>4Knocking</title>
+    <title>4Knocking - Imóveis</title>
+    <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
     <header>
-        <img src="./img/1logo.png" alt="Logo 4Knocking">
+        <a href="#"><img src="img/1logo.png" alt="Logo 4Knocking" /></a>
 
-        <div class="barra-pesquisa">
-            <input type="text" placeholder="Digite sua pesquisa...">
+        <div class="search-bar">
+            <input type="text" placeholder="Digite sua pesquisa..." />
             <button>Buscar</button>
         </div>
 
@@ -35,74 +35,139 @@
 
             <div class="notificacao-conteudo">
                 <span class="nome-usuario">👤 Usuário Tal</span>
-                <span class="status-interessado">Interessado</span>
+                <span class="status-interessado">
+                    <a href="#">Interessado</a></span>
                 <p class="mensagem">"mensagem longa de texto só para testar a expansão automática da caixa de
                     notificação"</p>
             </div>
 
             <div class="notificacao-conteudo">
                 <span class="nome-usuario">👤 Usuário Tal</span>
-                <span class="status-interessado">Interessado</span>
+                <span class="status-interessado">
+                    <a href="#">Interessado</a></span>
                 <p class="mensagem">"mensagem tal"</p>
             </div>
     </header>
 
-    <main>
-        <section class="imovel">
-            <div class="titulo">Rua, 123- bairro cidade</div>
-            <div class="grade">
-                <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
-                <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
-                <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
-                <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
-                <div class="casa">
-                    <div class="casa-nome">rua, 123 - bairro cidade</div>
-                    <div class="valor">Valor/ao mês</div>
-                </div>
-                <div class="especificacao">
-                    <div class="casa-nome">rua, 123 - bairro cidade</div>
-                    <div class="valor">Valor/ao mês</div>
-                </div>
-                <div class="especificacao">
-                    <div class="casa-nome">rua, 123 - bairro cidade</div>
-                    <div class="valor">Valor/ao mês</div>
-                </div>
-                <div class="especificacao">
-                    <div class="casa-nome">rua, 123 - bairro cidade</div>
-                    <div class="valor">Valor/ao mês</div>
-                </div>
+    <!-- Seção 1 -->
+    <section class="imovel">
+        <div class="titulo">Rua, 123 - Bairro Cidade</div>
+        <div class="grade">
+            <!-- Cards -->
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
             </div>
-        </section>
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
+            </div>
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
+            </div>
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
+            </div>
 
-        <section class="imovel">
-            <div class="titulo">Rua, 321- bairro cidade</div>
-            <div class="grade">
-                <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
-                <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
-                <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
-                <div class="casa"><img src="./img/casa.jpg" alt="Casa"></div>
-                <div class="especificacao">
-                    <div class="casa-nome">rua, 321 - bairro cidade</div>
-                    <div class="valor">Valor/ao mês</div>
-                </div>
-                <div class="especificacao">
-                    <div class="casa-nome">rua, 321 - bairro cidade</div>
-                    <div class="valor">Valor/ao mês</div>
-                </div>
-                <div class="especificacao">
-                    <div class="casa-nome">rua, 321 - bairro cidade</div>
-                    <div class="valor">Valor/ao mês</div>
-                </div>
-                <div class="especificacao">
-                    <div class="casa-nome">rua, 321 - bairro cidade</div>
-                    <div class="valor">Valor/ao mês</div>
-                </div>
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 123 - Bairro Cidade</div>
+                <div class="valor">Valor/ao mês</div>
             </div>
-        </section>
-    </main>
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 123 - Bairro Cidade</div>
+                <div class="valor">Valor/ao mês</div>
+            </div>
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 123 - Bairro Cidade</div>
+                <div class="valor">Valor/ao mês</div>
+            </div>
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 123 - Bairro Cidade</div>
+                <div class="valor">Valor/ao mês</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 2 -->
+    <section class="imovel">
+        <div class="titulo">Rua, 456 - Bairro Novo</div>
+        <div class="grade">
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
+            </div>
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
+            </div>
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
+            </div>
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
+            </div>
+
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 456 - Bairro Novo</div>
+                <div class="valor">Valor/ao mês</div>
+            </div>
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 456 - Bairro Novo</div>
+                <div class="valor">Valor/ao mês</div>
+            </div>
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 456 - Bairro Novo</div>
+                <div class="valor">Valor/ao mês</div>
+            </div>
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 456 - Bairro Novo</div>
+                <div class="valor">Valor/ao mês</div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção 3 -->
+    <section class="imovel">
+        <div class="titulo">Rua, 456 - Bairro Novo</div>
+        <div class="grade">
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
+            </div>
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
+            </div>
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
+            </div>
+            <div class="casa">
+                <a href="#"><img src="./img/casa.jpg" alt="Casa"></a>
+            </div>
+
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 456 - Bairro Novo</div>
+                <div class="valor">Valor/ao mês</div>
+            </div>
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 456 - Bairro Novo</div>
+                <div class="valor">Valor/ao mês</div>
+            </div>
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 456 - Bairro Novo</div>
+                <div class="valor">Valor/ao mês</div>
+            </div>
+            <div class="especificacao">
+                <div class="casa-nome">Rua, 456 - Bairro Novo</div>
+                <div class="valor">Valor/ao mês</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Bem-vindo ao 4Knocking.com.br</p>
+        <p>Seu portal para as melhores ofertas de imóveis!</p>
+    </footer>
+
+    <!-- Ionicons -->
+    <div class="icon perfil">
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </div>
 </body>
-<script src="script.js"></script>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </html>

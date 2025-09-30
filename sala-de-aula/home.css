@@ -84,16 +84,14 @@ header img {
     text-decoration: underline;
 }
 
-/* Ícone de usuário no canto */
-.user-icon {
-    font-size: 50px;
-    cursor: pointer;
+.icone-usuario {
+  font-size: 50px;
+  cursor: pointer;
 }
 
-/* Estilo do link dentro do ícone do usuário */
-.user-icon a {
-    color: white;
-    text-decoration: none;
+.icone-usuario a {
+  color: white;
+  text-decoration: none;
 }
 
 /* Container do banner rotativo com posição centralizada */
@@ -383,5 +381,5 @@ footer {
     padding: 4px 8px;
     font-weight: bold;
     color: #333;
-    display: inline-block;
+    display: block;
   }
