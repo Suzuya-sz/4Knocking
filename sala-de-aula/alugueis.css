@@ -85,13 +85,13 @@ header img {
 }
 
 .icone-usuario {
-  font-size: 50px;
-  cursor: pointer;
+    font-size: 50px;
+    cursor: pointer;
 }
 
 .icone-usuario a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 /* Container do banner rotativo com posição centralizada */
@@ -300,10 +300,18 @@ footer {
     margin-top: 20px;
     border-radius: 20px 20px 0 0;
     position: fixed;
-    bottom: 0;
     left: 0;
+    bottom: 0;
     width: 100%;
-  }
+    background: #528537;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 1rem;
+    box-shadow: 0 -2px 12px rgba(98,124,77,0.18);
+    z-index: 100;
+}
+
 .casa a {
     display: block;
     width: 100%;
@@ -325,26 +333,26 @@ footer {
     border: 5px solid rgb(0, 105, 0);
     box-shadow: 0 5px 5px black;
     z-index: 9999;
-  }
-  
-  .fechar {
+}
+
+.fechar {
     cursor: pointer;
     font-weight: bold;
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 40px;
-  }
-  
-  .fechar:hover {
+}
+
+.fechar:hover {
     color: red;
-  }
-  
-  
-  
-  
-  
-  .nome-usuario {
+}
+
+
+
+
+
+.nome-usuario {
     background-color: #e0e0e0;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -352,9 +360,9 @@ footer {
     font-weight: bold;
     color: #333;
     display: inline-block;
-  }
-  
-  .status-interessado {
+}
+
+.status-interessado {
     background-color: #d1e7dd;
     border: 1px solid #86b7a0;
     border-radius: 5px;
@@ -362,22 +370,22 @@ footer {
     font-weight: bold;
     color: #0f5132;
     display: inline-block;
-  }
-  
-  .notificacao-conteudo {
+}
+
+.notificacao-conteudo {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 8px;
-  }
-  
-  .notificacao-cabecalho {
+}
+
+.notificacao-cabecalho {
     display: flex;
     gap: 8px;
     margin-bottom: 8px;
-  }
-  
-  .notificacao-conteudo .mensagem {
+}
+
+.notificacao-conteudo .mensagem {
     background-color: #e0e0e0;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -385,15 +393,23 @@ footer {
     font-weight: bold;
     color: #333;
     display: inline-block;
-  }
+}
 
-  .status-interessado a {
-    text-decoration: none; /* Remove o sublinhado */
-    background-color: #007BFF; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    padding: 10px 20px; /* Espaçamento interno */
-    border: none; /* Remove borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    cursor: pointer; /* Mostra o cursor de clique */
-    font-size: 16px; /* Tamanho da fonte */
-    }
+.status-interessado a {
+    text-decoration: none;
+    /* Remove o sublinhado */
+    background-color: #007BFF;
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    border: none;
+    /* Remove borda */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    cursor: pointer;
+    /* Mostra o cursor de clique */
+    font-size: 16px;
+    /* Tamanho da fonte */
+}
